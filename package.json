@@ -1,0 +1,19 @@
+{
+  "name": "deamdify-sample",
+  "version": "1.0.0",
+  "description": "Test case for deamdify and jquery-ui",
+  "main": "index.js",
+  "scripts": {
+    "start": "beefy",
+    "prepublish": "browserify -g deamdify . > bundle.js"
+  },
+  "author": "Corin Lawson <corin.lawson@tecknacklabs.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "beefy": "^2.1.8",
+    "browserify": "^13.0.1",
+    "deamdify": "au-phiware/deamdify",
+    "jquery": "^3.1.0",
+    "jquery-ui": "^1.12.0"
+  }
+}
